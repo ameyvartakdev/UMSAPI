@@ -115,7 +115,7 @@ namespace UMS_API_INTERFACE.Controllers
             }
             else
             {
-                returnJson.Add("status", "UnSuccessful");
+                returnJson.Add("Message", "UnSuccessful");
             }
 
             return returnJson;
